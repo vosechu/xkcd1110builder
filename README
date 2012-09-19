@@ -7,6 +7,7 @@ echo -n '1n1e' > points.valid
 echo -n > points.invalid
 
 rm -f pictures.full/* pictures/* full.png
+mkdir pictures.full
 
 
 Crawl
