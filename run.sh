@@ -1,5 +1,8 @@
 #!/bin/bash
 
+if test ! -d pictures.full; then mkdir pictures.full ; fi
+if test ! -d pictures; then mkdir pictures ; fi
+
 echo -n '1n1e' > points.valid
 echo -n > points.invalid
 
